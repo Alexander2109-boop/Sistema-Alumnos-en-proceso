@@ -6,8 +6,8 @@ class Conexion
         // 1. Parámetros de conexión
         $servidor = "localhost";
         $usuario = "root";
-        $contra = "Paul2109.@";
-        $base_datos = "bd_papeleria";
+        $contra = "";
+        $base_datos = "bd_Alumnos";
 
         try {
             // 2. Conexión PDO para MySQL (todo en una sola línea de texto)
@@ -30,4 +30,5 @@ $db = new Conexion();
 $conexion = $db->conectar();
 echo "Conexión exitosa a la base de datos " . $base_datos;
 */
+
 ?>
