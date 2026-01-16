@@ -1,0 +1,48 @@
+
+        /* Paleta Minimalista Monocromática */
+        .navbar {
+            background-color: #1e1e1e !important; /* Negro mate */
+            padding: 1rem 0;
+        }
+
+        .navbar-brand {
+            color: #dfe6e9 !important; /* Gris casi blanco */
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .nav-link {
+            color: #b2bec3 !important; /* Gris acero claro */
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ffffff !important; /* Resalte en blanco puro */
+        }
+
+        /* Color de acento para la opción seleccionada o activa */
+        .nav-item.active .nav-link, .nav-link.active {
+            color: #636e72 !important; /* Gris acero */
+        }
+
+        /* Estilo para los submenús (Dropdowns) */
+        .dropdown-menu {
+            background-color: #1e1e1e;
+            border: 1px solid #636e72;
+        }
+
+        .dropdown-item {
+            color: #b2bec3;
+        }
+
+        .dropdown-item:hover {
+            background-color: #636e72;
+            color: white;
+        }
+
+        /* Footer coordinado */
+        footer {
+            background-color: #1e1e1e !important;
+            border-top: 2px solid #636e72;
+        }
